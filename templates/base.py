@@ -28,4 +28,4 @@ def run_tests():
 	print base('hello world')
 
 run_tests()
-run_timer()
+# run_timer()
