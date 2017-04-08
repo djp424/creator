@@ -1,4 +1,4 @@
-# Creator Overview
+## Overview
 1. Creates a program in your current directory based off the language you want to work with. Will add a number to the end of the filename (base) if it already exists.
 2. Opens your program in your editor.
 
