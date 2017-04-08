@@ -1,21 +1,16 @@
-# Creator
-A program that creates programs
-
-## What Creator Does
-1. Creates a program in your current directory based off the language you want to work with. Will add a number to the end of it if filename (base) already exists.
-2. Opens your program for editing
+# Creator Overview
+1. Creates a program in your current directory based off the language you want to work with. Will add a number to the end of the filename (base) if it already exists.
+2. Opens your program in your editor.
 
 ## Installation
 
 ### Requirements
 1. Python
-2. Python Plugins
-3. Install Alias (#Alius)
+2. Python Plugins (TODO: needs to be updated)
+3. Update Alias
 
 ### Alias
-Add an alias to your .bash_profile to copy templates over.
-
-Example (needs to be updated):
+Open your .bash_profile and add the following line to it (TODO: needs to be updated):
 ```
 alias create='cp /Users/dparsons/Code/creator/templates/base.py .; atom .'
 ```
